@@ -6,12 +6,22 @@ const defaultState = {
 
 export default (state = defaultState, action) => {
   const newState = JSON.parse(JSON.stringify(state))
-  console.log(state)
-  if(action.type===C.ONFOCUS) {
-    newState.onFocus = true
-    return newState
+  switch(action.type){
+    case C.ON_FOCUS:
+      newState.onFocus = true
+      return newState;
+    case C.SEARCH_ON_BLUR:
+      newState.onFocus = false
+      return newState
+
+
+
+
+    default: return state
   }
-      return state
-  }
+}
+
+
+
 
 
