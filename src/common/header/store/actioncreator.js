@@ -1,2 +1,6 @@
 import * as C from './constant'
-import axios from 'axios'
+
+export const searchOnFocus = () => ({ type: C.ONFOCUS })
+
+
+

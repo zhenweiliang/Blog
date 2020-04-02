@@ -1,3 +1,105 @@
 .header_wrapper {
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-right: 50px;
+  margin-top: -10px;
 
+  .ul_left {
+    float: left;
+    display: block;
+
+    li {
+      float: left;
+      display: block;
+      margin-right: 15px;
+      line-height: 56px;
+      font-size: 17px;
+      position: relative;
+
+      .logo {
+        display: block;
+        width: 100px;
+        height: 56px;
+      }
+
+      .download {
+        padding: 0 10px;
+        color: #333;
+        text-underline: none;
+      }
+
+      .search {
+        width: 160px;
+        height: 38px;
+        padding: 0 30px 0 20px;
+        margin-top: 9px;
+        margin-left: 20px;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        border-radius: 19px;
+        background: #eee;
+        font-size: 14px;
+        color: #666;
+      }
+
+      .active{
+        width: 240px;
+      }
+
+      .icon-sousuo {
+        position: absolute;
+        right: 5px;
+        bottom: 11px;
+        width: 30px;
+        line-height: 30px;
+        border-radius: 15px;
+        text-align: center;
+      }
+
+    }
+  }
+
+  .ul_right {
+    float: right;
+    display: block;
+
+    li {
+      float: right;
+      display: block;
+      margin-right: 20px;
+      line-height: 56px;
+      font-size: 17px;
+
+      .login {
+
+      }
+
+      .register {
+        color: #fff;
+        background: #ec6149;
+        margin-top: 9px;
+        padding: 0 10px;
+        line-height: 38px;
+        border-radius: 19px;
+        border: 1px solid #ec6149;
+      }
+
+      .write {
+        color: #fff;
+        background: #ec6149;
+        margin-top: 9px;
+        padding: 0 20px;
+        line-height: 38px;
+        border-radius: 19px;
+        border: 1px solid #ec6149;
+      }
+
+
+    }
+
+
+  }
 }
