@@ -8,7 +8,7 @@ class Login extends React.Component {
 
   render () {
     return (<div className={Style.login_wrapper}>
-
+      {/* display the login panel or redirect to main page up to login status  */}
       {this.props.loginStatus
         ? <Redirect to='/'/>
         : <div className={Style.login_box}>
@@ -24,7 +24,6 @@ class Login extends React.Component {
             Submit
           </button>
         </div>}
-
     </div>)
   }
 

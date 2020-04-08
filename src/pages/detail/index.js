@@ -13,10 +13,10 @@ class Detail extends React.Component {
   render () {
     return (<div className={Style.detail_wrapper}>
       <div className={Style.header}>{this.props.title}</div>
-      <div className={Style.content} dangerouslySetInnerHTML={{__html: this.props.content}}></div>
+      <div className={Style.content}
+           dangerouslySetInnerHTML={{ __html: this.props.content }}></div>
     </div>)
   }
-
 }
 
 const mapState = (state) => ({

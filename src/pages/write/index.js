@@ -6,11 +6,12 @@ class Write extends React.Component {
 
   render () {
     return (<div className={Style.write_wrapper}>
-      <textarea name="myBlog" id="" cols="30" rows="10" className={Style.textArea}></textarea>
+      <textarea name="myBlog" id="" cols="30" rows="10"
+                className={Style.textArea}>
+      </textarea>
       <button className={Style.button}>submit</button>
     </div>)
   }
-
 }
 
 const mapState = (state) => ({})

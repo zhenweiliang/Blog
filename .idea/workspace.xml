@@ -2,56 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de354996-48e2-416c-b09a-c4516e4f1ead" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/detail/.sass-cache/e52a8f162ed6c606e509342df2016cd7fbc863c0/index.module.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/detail/index.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/detail/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/.sass-cache/5bf06d676fc1822194ff022c9791f980069c1b0b/index.module.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/index.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/write/.sass-cache/97449c85f5c766eae4f0d141c1a690de2a88aee5/index.module.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/write/index.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/write/index.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/write/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/header/.sass-cache/f6b8e5a7ad6d21b2b23178a20a513b624bd8250c/index.module.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/components/.sass-cache/4b80b2c0cf02fe2231f9b40298d1eb9718537e04/topic.module.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/components/topic.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/components/topic.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/components/topic.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/api/detail.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/api/detail.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/api/headerList.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/api/headerList.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/api/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/api/home.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/api/homeList.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/api/homeList.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/.sass-cache/48795ce2dd31386fac0fac85257b1d9d79d94283/app.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/.sass-cache/48795ce2dd31386fac0fac85257b1d9d79d94283/app.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/header/.sass-cache/f6b8e5a7ad6d21b2b23178a20a513b624bd8250c/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/.sass-cache/f6b8e5a7ad6d21b2b23178a20a513b624bd8250c/index.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/header/Header_ul_left.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/Header_ul_left.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/header/Header_ul_right.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/Header_ul_right.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/header/Header_ul_left.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/components/hd_left.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/header/Header_ul_right.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/components/hd_right.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/header/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/header/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/header/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/detail/.sass-cache/e52a8f162ed6c606e509342df2016cd7fbc863c0/detail.module.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/detail/.sass-cache/e52a8f162ed6c606e509342df2016cd7fbc863c0/detail.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/detail/.sass-cache/e52a8f162ed6c606e509342df2016cd7fbc863c0/index.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/detail/detail.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/detail/detail.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/detail/detail.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/header/store/actioncreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/store/actioncreator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/header/store/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/store/constant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/detail/.sass-cache/e52a8f162ed6c606e509342df2016cd7fbc863c0/index.module.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/detail/.sass-cache/e52a8f162ed6c606e509342df2016cd7fbc863c0/index.module.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/detail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/detail/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/detail/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/detail/index.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/detail/store/actioncreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/detail/store/actioncreator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/detail/store/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/detail/store/constant.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/detail/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/detail/store/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/.sass-cache/5bf06d676fc1822194ff022c9791f980069c1b0b/index.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/.sass-cache/5bf06d676fc1822194ff022c9791f980069c1b0b/login.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/detail/index.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/.sass-cache/e858b3e1a771f79995b0c712247816456679e5ad/index.module.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/.sass-cache/e858b3e1a771f79995b0c712247816456679e5ad/index.module.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/.sass-cache/4b80b2c0cf02fe2231f9b40298d1eb9718537e04/bloglist.module.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/.sass-cache/4b80b2c0cf02fe2231f9b40298d1eb9718537e04/bloglist.module.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/BlogList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/BlogList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Topic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Topic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/bloglist.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/bloglist.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/bloglist.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/bloglist.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/topic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/topic.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/topic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/index.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/store/actioncreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/store/actioncreator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/.sass-cache/5bf06d676fc1822194ff022c9791f980069c1b0b/index.module.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/.sass-cache/5bf06d676fc1822194ff022c9791f980069c1b0b/index.module.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/index.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/index.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/index.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/login/store/actioncreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/store/actioncreator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/login/store/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/store/constant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/store/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/write/.sass-cache/97449c85f5c766eae4f0d141c1a690de2a88aee5/index.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/write/.sass-cache/97449c85f5c766eae4f0d141c1a690de2a88aee5/write.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/write/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/write/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/index.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/write/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/write/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/write/index.scss" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +79,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/node_modules/jquery/dist/jquery.js" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/home/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common/header/components" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,6 +87,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ReactProject\blog\src\common\header\components" />
       <recent name="D:\ReactProject\blog\src\pages\home\components" />
       <recent name="D:\ReactProject\blog\src\common\header" />
     </key>
@@ -116,7 +118,7 @@
       <workItem from="1586140007395" duration="642000" />
       <workItem from="1586141816545" duration="598000" />
       <workItem from="1586222853303" duration="14968000" />
-      <workItem from="1586310406782" duration="13514000" />
+      <workItem from="1586310406782" duration="21963000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Home Component">
       <created>1586310724122</created>
@@ -139,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586310799048</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finish Login/Logout">
+      <created>1586345878369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586345878369</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +170,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Finished Home Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Home Component" />
+    <MESSAGE value="Finish Login/Logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Login/Logout" />
   </component>
 </project>

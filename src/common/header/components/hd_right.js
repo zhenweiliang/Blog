@@ -1,24 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default class Header_ul_right extends React.PureComponent {
+export default class HeaderRight extends React.PureComponent {
 
-  // eslint-disable-next-line react/require-render-return
   render () {
-
     return (<ul className="ul_right">
       <li>
         <Link to={'/write'}>
           <button className="write">
             <span className="iconfont icon-icon-checkin"></span>
-            &nbsp;
-            Write
+            &nbsp; Write
           </button>
         </Link>
       </li>
       <li>
         <button className="register">Register</button>
       </li>
+      {/* display login/logout depends on loginStatus  */}
       {this.props.loginStatus
         ? (<Link to={'/'}>
           <li className="logout" onClick={this.props.logout}>Logout</li>
@@ -27,9 +25,6 @@ export default class Header_ul_right extends React.PureComponent {
           <li className="login">Login</li>
         </Link>)
       }
-
     </ul>)
-
   }
-
 }

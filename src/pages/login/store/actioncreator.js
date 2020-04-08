@@ -6,5 +6,5 @@ export const idVerify = (id, pw) => {
 }
 
 export const logout = () => {
-  return ({type:C.LOGOUT})
+  return ({ type: C.LOGOUT })
 }
