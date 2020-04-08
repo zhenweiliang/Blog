@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 export default class Header_ul_left extends React.PureComponent {
 
@@ -18,7 +19,7 @@ export default class Header_ul_left extends React.PureComponent {
   render () {
     return (
       <ul className="ul_left">
-        <li><img className="logo" src={require('../../statics/images/logo.png')} alt=""/></li>
+        <li><Link to={'/'}><img className="logo" src={require('../../statics/images/logo.png')} alt=""/></Link></li>
         <li><a href="#" className="download APP">Download</a></li>
         <li>
           <input type="text" className={this.props.onFocus ? 'search active' : 'search'}

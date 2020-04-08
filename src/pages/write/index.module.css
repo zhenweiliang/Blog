@@ -1,0 +1,11 @@
+.write_wrapper {
+  width: 500px;
+  height: 200px;
+  margin: 30px auto; }
+  .write_wrapper .textArea {
+    display: block;
+    background-color: #fff; }
+  .write_wrapper .button {
+    margin: 10px auto; }
+
+/*# sourceMappingURL=index.module.css.map */

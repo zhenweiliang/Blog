@@ -8,6 +8,7 @@ import Detail from './pages/detail'
 import Write from './pages/write'
 import Home from './pages/home'
 
+//todo: lazy-load
 import './app.css'
 
 class App extends React.Component {

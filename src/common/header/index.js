@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import * as AC from './store/actioncreator'
 import Header_ul_left from './Header_ul_left'
 import Header_ul_right from './Header_ul_right'
+import * as AC_login from '../../pages/login/store/actioncreator'
 
 import './index.css'
 
@@ -22,6 +23,8 @@ class Header extends React.Component {
     const searchMouseEnter = this.props.searchMouseEnter
     const mouseEnter = this.props.mouseEnter
     const searchMouseLeave = this.props.searchMouseLeave
+    const loginStatus = this.props.loginStatus
+    const logout = this.props.logout
     return (<div className="header_wrapper clearfix">
       <Header_ul_left onFocus={onFocus}
                       searchOnFocus={searchOnFocus}
@@ -33,7 +36,8 @@ class Header extends React.Component {
                       mouseEnter={mouseEnter}
                       searchMouseLeave={searchMouseLeave}
       />
-      <Header_ul_right/>
+      <Header_ul_right loginStatus={loginStatus}
+                       logout={logout}/>
 
     </div>)
   }
@@ -46,6 +50,7 @@ const mapState = (state) => {
     list: state.header.list,
     pageNumber: state.header.pageNumber,
     mouseEnter: state.header.mouseEnter,
+    loginStatus: state.login.loginStatus,
   }
 }
 
@@ -73,6 +78,9 @@ const mapDispatch = (dispatch) => ({
   },
   searchMouseLeave () {
     dispatch(AC.searchMouseLeave())
+  },
+  logout () {
+    dispatch(AC_login.logout())
   },
 
 })
