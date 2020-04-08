@@ -7,7 +7,8 @@
   margin-top: -10px; }
   .header_wrapper .ul_left {
     float: left;
-    display: block; }
+    display: block;
+    position: relative; }
     .header_wrapper .ul_left li {
       float: left;
       display: block;
@@ -46,6 +47,44 @@
         line-height: 30px;
         border-radius: 15px;
         text-align: center; }
+    .header_wrapper .ul_left .search_panel {
+      display: inline-block;
+      position: absolute;
+      left: 280px;
+      top: 36px;
+      width: 240px;
+      height: 200px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      line-height: 20px;
+      font-size: 14px;
+      color: #969696;
+      padding: 8px 20px 0;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+      background: #fff;
+      visibility: visible; }
+      .header_wrapper .ul_left .search_panel .search_refresh {
+        display: inline-block;
+        float: right;
+        margin-right: 10px; }
+        .header_wrapper .ul_left .search_panel .search_refresh:hover {
+          cursor: pointer; }
+        .header_wrapper .ul_left .search_panel .search_refresh .icon-spin {
+          font-size: 12px;
+          margin-right: 2px; }
+    .header_wrapper .ul_left .search_list {
+      margin-top: 15px; }
+      .header_wrapper .ul_left .search_list .search_info_item {
+        display: block;
+        float: left;
+        line-height: 20px;
+        padding: 0 5px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+        font-size: 12px;
+        border: 1px solid #ddd;
+        color: #787878;
+        border-radius: 3px; }
   .header_wrapper .ul_right {
     float: right;
     display: block; }
@@ -71,5 +110,9 @@
         line-height: 38px;
         border-radius: 19px;
         border: 1px solid #ec6149; }
+
+.spin {
+  transition: all 2s ease-in;
+  transform-origin: center center; }
 
 /*# sourceMappingURL=index.css.map */

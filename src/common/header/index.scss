@@ -9,6 +9,7 @@
   .ul_left {
     float: left;
     display: block;
+    position: relative;
 
     li {
       float: left;
@@ -45,7 +46,7 @@
         color: #666;
       }
 
-      .active{
+      .active {
         width: 240px;
       }
 
@@ -60,6 +61,60 @@
       }
 
     }
+
+    .search_panel {
+      display: inline-block;
+      position: absolute;
+      left: 280px;
+      top: 36px;
+      width: 240px;
+      height: 200px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      line-height: 20px;
+      font-size: 14px;
+      color: #969696;
+      padding: 8px 20px 0;
+      box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+      background: #fff;
+      visibility: visible;
+
+      .search_refresh {
+        display: inline-block;
+        float: right;
+        margin-right: 10px;
+
+        &:hover{
+          cursor: pointer;
+        }
+        .icon-spin {
+          font-size: 12px;
+          margin-right: 2px;
+        }
+
+
+      }
+    }
+
+
+    .search_list {
+      margin-top: 15px;
+
+
+      .search_info_item {
+        display: block;
+        float: left;
+        line-height: 20px;
+        padding: 0 5px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+        font-size: 12px;
+        border: 1px solid #ddd;
+        color: #787878;
+        border-radius: 3px;
+      }
+    }
+
   }
 
   .ul_right {
@@ -102,4 +157,9 @@
 
 
   }
+}
+
+.spin {
+  transition: all 2s ease-in;
+  transform-origin: center center;
 }
