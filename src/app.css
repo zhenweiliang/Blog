@@ -1,3 +1,10 @@
+.clearfix::after {
+  content: '.';
+  height: 0;
+  display: block;
+  clear: both; }
 
+* {
+  text-decoration: none; }
 
 /*# sourceMappingURL=app.css.map */

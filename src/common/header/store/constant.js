@@ -1,0 +1,6 @@
+export const ON_FOCUS='header/ON_FOCUS'
+export const SEARCH_ON_BLUR='header/searchOnBlur'
+export const SEARCH_PANEL_DATA='header/SEARCH_PANEL_DATA'
+export const CHANGE_PAGE_NUMBER='header/CHANGE_PAGE_NUMBER'
+export const SEARCH_MOUSE_ENTER='header/SEARCH_MOUSE_ENTER'
+export const SEARCH_MOUSE_LEAVE='header/SEARCH_MOUSE_LEAVE'
