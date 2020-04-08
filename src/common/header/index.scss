@@ -84,18 +84,16 @@
         float: right;
         margin-right: 10px;
 
-        &:hover{
+        &:hover {
           cursor: pointer;
         }
+
         .icon-spin {
           font-size: 12px;
           margin-right: 2px;
         }
-
-
       }
     }
-
 
     .search_list {
       margin-top: 15px;
@@ -114,7 +112,6 @@
         border-radius: 3px;
       }
     }
-
   }
 
   .ul_right {
@@ -127,10 +124,6 @@
       margin-right: 20px;
       line-height: 56px;
       font-size: 17px;
-
-      .login {
-
-      }
 
       .register {
         color: #fff;
@@ -150,13 +143,11 @@
         line-height: 38px;
         border-radius: 19px;
         border: 1px solid #ec6149;
+        cursor: pointer;
       }
-
-
     }
-
-
   }
+
 }
 
 .spin {

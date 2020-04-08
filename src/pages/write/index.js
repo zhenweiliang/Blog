@@ -1,28 +1,23 @@
 import React from 'react'
-import {connect} from 'react-redux'
-import * as AC from './store/actioncreator'
+import { connect } from 'react-redux'
+import Style from './index.module.css'
 
-import './index.css'
-
-class Write extends React.Component{
+class Write extends React.Component {
 
   render () {
-    return (<div className="write_wrapper">
-      Write
+    return (<div className={Style.write_wrapper}>
+      <textarea name="myBlog" id="" cols="30" rows="10"
+                className={Style.textArea}>
+      </textarea>
+      <button className={Style.button}>submit</button>
     </div>)
   }
-
 }
 
-const mapState = (state) => ({
+const mapState = (state) => ({})
 
-})
+const mapDispatch = (dispatch) => ({})
 
-const mapDispatch = (dispatch) => ({
-
-})
-
-
-export default connect(mapState,mapDispatch)(Write)
+export default connect(mapState, mapDispatch)(Write)
 
 

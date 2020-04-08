@@ -7,10 +7,6 @@ export const changePageNumber = () => ({ type: C.CHANGE_PAGE_NUMBER })
 export const searchMouseEnter = () => ({ type: C.SEARCH_MOUSE_ENTER })
 export const searchMouseLeave = () => ({ type: C.SEARCH_MOUSE_LEAVE })
 
-
-
-
-
 export const searchPanel = () => {
   return (dispatch) => {
     Axios.get('/api/headerList.json')

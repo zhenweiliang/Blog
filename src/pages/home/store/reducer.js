@@ -5,7 +5,6 @@ const defaultState = {
   blogList: [],
   blogListMore: [],
   noMore: false,
-  test:'test'
 }
 
 export default (state = defaultState, action) => {
@@ -26,9 +25,7 @@ export default (state = defaultState, action) => {
       if (newState.blogListMore.length === 0) newState.noMore = true
       return newState
 
-
     default:
       return state
   }
-
 }

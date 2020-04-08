@@ -3,7 +3,6 @@ import Style from './index.module.css'
 import { connect } from 'react-redux'
 import $ from 'jquery'
 import * as AC from './store/actioncreator'
-
 import Topic from './components/Topic'
 import BlogList from './components/BlogList'
 
@@ -12,7 +11,7 @@ class Home extends React.Component {
   componentDidMount () {
     this.props.getTopicList()
     this.props.getBlogList()
-// Back to Top by jQuery
+// Back to Top animation by jQuery
     $(window).scroll(function () {
       if ($(window).scrollTop() >= 50) {
         $('#btn_top').fadeIn()
@@ -24,7 +23,6 @@ class Home extends React.Component {
       $('html,body').animate({ scrollTop: 0 }, 500)
     })
     //end of jquery
-
   }
 
   render () {
@@ -32,7 +30,6 @@ class Home extends React.Component {
       <div className={Style.home_left}>
         <img className={Style.banner_img} alt=''
              src="/images/tt.jpg"/>
-        {/*{this.renderTopic() }*/}
         <Topic topicList={this.props.topicList}/>
         <BlogList
           blogList={this.props.blogList}
@@ -41,11 +38,9 @@ class Home extends React.Component {
         />
       </div>
       <div className={Style.home_right}></div>
-      <button id="btn_top" className={Style.btn_top} >
+      <button id="btn_top" className={Style.btn_top}>
         To Top
       </button>
-
-
     </div>)
   }
 
@@ -55,7 +50,6 @@ class Home extends React.Component {
       return <Topic topicList={this.props.topicList}/>
     }
   }
-
 }
 
 const mapState = (state) => ({
@@ -79,5 +73,3 @@ const mapDispatch = (dispatch) => ({
 })
 
 export default connect(mapState, mapDispatch)(Home)
-
-
